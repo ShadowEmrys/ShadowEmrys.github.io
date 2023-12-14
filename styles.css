@@ -180,3 +180,71 @@ footer {
     background-color: #333; /* Light gray background color for example */
     padding: 20px;
 }
+
+
+/* Add this to the existing styles.css */
+
+.causes-section {
+    margin: 20px;
+    text-align: center;
+}
+
+.causes-section h2 {
+    color: #333; /* Dark gray text color for contrast */
+}
+
+.causes-section p {
+    color: #666; /* Light gray text color for contrast */
+}
+
+.photos-section {
+    background-color: #001f3f; /* Dark navy background color */
+    padding: 20px;
+    text-align: center;
+}
+
+.photo-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.photo-grid img {
+    width: 30%; /* Adjust the width as needed */
+    height: auto;
+}
+
+.main-link {
+    margin-top: 40px;
+}
+
+.main-link h3 {
+    color: #333; /* Dark gray text color for contrast */
+}
+
+.main-link a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.main-link a:hover {
+    background-color: #001f3f; /* Dark navy background color on hover */
+}
+
+/* Add this to the existing styles.css */
+
+.causes-section {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.causes-section * {
+    color: #fff !important;
+}
